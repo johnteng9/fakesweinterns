@@ -1,42 +1,89 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+
+*{ /* applies to everything*/
+  padding: 0; 
+  margin: 0;
+  text-decoration: none;/* takes away underlines in links*/
+  list-style: none;/* takes away the dots in an unordered list*/
+  box-sizing: border-box;/* https://www.youtube.com/watch?v=WlGQdgy-M6w */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  background: rgba(233, 241, 250, 100);
+  font-family: "lexend";
+}
+
+#navbar{
+  background: #002E5B;
+  height: 80px;
+  width: 100%;
+  font-family: "Bahnschrift";
+
+}
+
+label.logo{
+  color: #F8B508;
+  font-size: 45px;
+  line-height: 80px;
+  padding: 5px 50px;
+}
+
+label.logo strong{
+  color: white;
+}
+
+nav#navbar ul {
+  float: right;
+  /*padding-right: 20px;*/
+}
+
+nav#navbar ul li{
+  display: inline-block;  /*links on the top right can change height and width without linebreaking*/
+  line-height: 20px;
+}
+
+nav#navbar a {
+  display: block;
+  color: white;
+  font-size: 25px;
+  padding: 10px 30px;
+  text-align: right;
+  /*border-radius: 3px;*/
+}
+
+#navbar a:active,#navbar a:hover, #menu ul a:active,#menu a:hover  {
+  background: #F8B508;
+  transition: .5s;
+  color: black;
+}
+
+#menu {
+  background: black;
+  height: 50px;
+  width: 100%;
+  color: white;
+  font-family: "Bahnschrift";
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+}
+
+#menu ul a{
+  display: inline-block;  /*links on the top right can change height and width without linebreaking*/
+  font-size: 25px;
+  line-height: 50px;
+  padding: 0 50px;
+  width: 33.3%;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
