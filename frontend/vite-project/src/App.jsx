@@ -5,13 +5,13 @@ import './App.css'
 import Navbar from './components/navbar.jsx'
 import Login from './components/Login.jsx'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-        <Navbar/>
-        <Login />
+      <Login />
 
     </>
   )
