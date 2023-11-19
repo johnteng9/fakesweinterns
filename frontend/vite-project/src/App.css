@@ -6,6 +6,8 @@
   text-decoration: none;/* takes away underlines in links*/
   list-style: none;/* takes away the dots in an unordered list*/
   box-sizing: border-box;/* https://www.youtube.com/watch?v=WlGQdgy-M6w */
+  font-family: "Bahnschrift";
+
 }
 
 html {
@@ -86,4 +88,124 @@ nav#navbar a {
   padding: 0 50px;
   width: 33.3%;
   text-align: center;
+}
+
+section {
+  display: flex;
+}
+
+#sidebar {
+  width: 600px;
+  height: 100%;
+  padding-bottom: 2000px;
+  background-color: #3B7EA1;
+}
+
+#sidebar-content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#sidebar-content h3{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 20px;
+
+}
+
+#sidebar-content h5{
+  font-size: 20px;
+  color: white;
+  width: 92.5%;
+  margin: auto;
+
+}
+
+#sidebar-content input {
+  color: black;
+  padding-left: 4px;
+  height: 30px;
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+#class-search {
+  background-color: gray;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+
+#class {
+  background-color: white;
+  margin: 20px auto;
+  width: 95%;
+  height: 120px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#class h4 {
+  font-size: 40px;
+}
+
+#class div {
+  background-color: limegreen;
+  border-radius: 10px;
+  height: 35px;
+}
+#days{
+  float: left;
+  padding: 5px 10px;
+  font-size: 25px;
+}
+#times {
+  float: right;
+  padding: 5px 10px;
+  font-size: 25px;
+}
+
+#class:active, #class:hover{
+  background-color: rgb(225, 225, 225);
+}
+
+
+#class-description {
+  padding: 2%;
+  width: 75%;
+}
+#class-description h2 {
+  font-size: 50px;
+}
+
+#description {
+  background-color: rgb(200, 200, 200);
+  border-radius: 30px;
+  height: auto;
+  padding: 3%;
+  padding-bottom: 50px;
+  margin: 2%;
+}
+
+#description h1 {
+  font-size: 100px;
+}
+
+#description h3 {
+  font-size: 40px;
+}
+
+#description p {
+  font-size: 25px;
+  padding: 1%;
+}
+
+#description h6 {
+  font-size: 25px;
+  background-color: limegreen;
+  border-radius: 10px;
+  height: 35px;
 }
