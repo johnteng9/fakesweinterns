@@ -1,20 +1,24 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './components/navbar.jsx'
-import Login from './components/Login.jsx'
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Login from './Login.jsx'
+import Enrollment from './enrollment';
 
 
 function App() {
   const [count, setCount] = useState(0)
-
+ 
   return (
     <>
-      <Login />
-
+      {/* <Login /> */}
+      {/* <Navbar /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login/>} />
+          <Route path="/enrollment" element={<Enrollment />}/>
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
