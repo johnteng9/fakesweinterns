@@ -13,9 +13,9 @@ export default function Navbar() {
   </nav>
   <div id="menu">
     <ul>
-      <a><li>View Classes</li></a> 
-      <a><li>Class Search and Enroll</li></a>
-      <Link to="/"><li>Sign Out</li></Link>
+      <Link to='/home'><li>View Classes</li></Link> 
+      <Link to='/enrollment'><li>Class Search and Enroll</li></Link>
+      <Link to='/'><li>Sign Out</li></Link>
     </ul>
   </div>
 </>

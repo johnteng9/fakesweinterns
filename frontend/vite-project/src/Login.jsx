@@ -20,7 +20,7 @@ export default function Login() {
       
       if(username === User.email && password === User.pw) {
         alert('Successfully Login.')
-        navigate('/enrollment')
+        navigate('/home')
       } else {
         alert("Incorrect.");
       }

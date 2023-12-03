@@ -1,0 +1,48 @@
+  #class-description {
+    padding: 2%;
+    width: 75%;
+  }
+  
+  #class-description h2 {
+    font-size: 50px;
+    margin-left: 25px;
+  }
+  
+  #description {
+    background: #83F5BF;
+    border-radius: 30px;
+    height: auto;
+    padding: 3%;
+    margin: 2%;
+  }
+  
+  #description h1 {
+    font-size: 100px;
+  }
+  
+  #description h3 {
+    font-size: 40px;
+  }
+  
+  #description p {
+    font-size: 25px;
+    padding: 1%;
+  }
+  
+  #description h6 {
+    font-size: 25px;
+    background-color: floralwhite;
+    border-radius: 10px;
+    height: 35px;
+    padding-bottom: 20px;
+  }
+  
+  .center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #days {
+    float: right;
+  }
