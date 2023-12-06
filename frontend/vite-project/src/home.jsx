@@ -24,6 +24,9 @@ export default function Home() {
                 <Description
                     classID = {4}
                 />
+                <Description
+                    classID = {5}
+                />
             </div>
         </section>
         </>
