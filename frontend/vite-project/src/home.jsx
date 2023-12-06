@@ -13,22 +13,16 @@ export default function Home() {
             <div id = 'class-description'>
                 <h2>Class Description:</h2>
                 <Description
-                    classNumber={'CS 61A'}
-                    className={'Structure and Interpretation of Computer Programs'}
-                    days={'M, W, F'}
-                    time={'3:00 - 4:00pm'}
+                    classID = {1}
                 />
                 <Description
-                    classNumber={'CS 70'}
-                    className={'Great Ideas in Computer Architecture (Machine Structures)'}
-                    days={'Tu, Th'}
-                    time={'9:30am - 11:00am'}
+                    classID = {2}
                 />
                 <Description
-                    classNumber={'CS 198-199'}
-                    className={'Introduction to the Full Stack Development'}
-                    days={'W, F'}
-                    time={'5:00pm - 6:30pm'}
+                    classID = {3}
+                />
+                <Description
+                    classID = {4}
                 />
             </div>
         </section>
